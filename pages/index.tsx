@@ -24,6 +24,13 @@ export default function Page({ locale }: { locale: string }) {
           To Arabic
         </Link>
       )}
+      <hr />
+      <Link href="/static" style={{ display: "block" }}>
+        To Static
+      </Link>
+      <Link href="/dynamic" style={{ display: "block" }}>
+        To Dynamic
+      </Link>
     </div>
   );
 }
